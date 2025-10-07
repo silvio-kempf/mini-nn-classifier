@@ -1,25 +1,15 @@
 # Mini Neural Network - Digit Classifier
 
 A complete neural network implementation for handwritten digit classification, built from scratch using only NumPy. This project demonstrates the fundamentals of machine learning without relying on high-level frameworks like TensorFlow or PyTorch.
-
-## 📖 About This Project
-
-This repository contains a fully functional neural network that can classify handwritten digits (0-9) with 98%+ accuracy. It's designed as both a practical tool and an educational resource to understand how neural networks work under the hood.
+This repository contains a fully functional neural network that can classify handwritten digits (0-9) with 98%+ accuracy. 
 
 ### Key Features:
 - **From-scratch implementation** using only NumPy
 - **Pre-trained model** ready to use immediately
-- **Complete training pipeline** with full transparency
+- **Complete training pipeline** ready to use immediately
 - **Simple CLI interface** for easy digit classification
-- **Educational focus** with clean, well-documented code
 - **Test images included** for immediate experimentation
 
-### Perfect For:
-- Learning neural network fundamentals
-- Understanding backpropagation and gradient descent
-- Seeing how activation functions work in practice
-- Educational projects and tutorials
-- Quick digit classification without complex setup
 
 ## 🚀 Quick Start
 
@@ -40,6 +30,7 @@ python classifier.py test_images/digit_7.png
 # Test your own handwritten digit
 python classifier.py my_digit.png
 ```
+---
 
 ## 📁 What's Included
 
@@ -47,8 +38,8 @@ python classifier.py my_digit.png
   - **Guaranteed**: These images were NOT used during training
   - **Source**: Real MNIST test samples from the same test set used for evaluation
 - **Pre-trained model** with 98%+ accuracy
-- **Simple CLI** for image classification
-- **Clean code structure** - only essential files
+
+---
 
 ## 🎯 Usage Examples
 
@@ -66,12 +57,16 @@ python classifier.py my_image.png --debug
 python classifier.py my_image.png --no-display
 ```
 
+---
+
 ## 📊 Model Performance
 
 - **Training Accuracy**: ~100%
 - **Test Accuracy**: ~98%
 - **Architecture**: 64 → 32 → 10 neurons
 - **Dataset**: MNIST handwritten digits (8x8 pixels)
+
+---
 
 ## ⚠️ Important: Model Limitations
 
@@ -87,6 +82,7 @@ python classifier.py my_image.png --no-display
 - Low contrast images
 - Images with backgrounds or noise
 
+---
 
 ## 🛠️ For Developers & Transparency
 
@@ -98,6 +94,8 @@ python train_model.py --epochs 100
 python train_model.py --epochs 50 --hidden 64 --lr 0.05
 ```
 
+---
+
 ## 📝 Image Requirements
 
 - **Formats**: PNG, JPG, JPEG, BMP, TIFF
@@ -107,8 +105,6 @@ python train_model.py --epochs 50 --hidden 64 --lr 0.05
 - **Quality**: Clear, high contrast, minimal noise
 
 ---
-
-**Perfect for learning neural networks from scratch!** 🎓
 
 ## 📄 License
 
