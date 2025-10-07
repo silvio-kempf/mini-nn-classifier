@@ -109,3 +109,7 @@ python train_model.py --epochs 50 --hidden 64 --lr 0.05
 ---
 
 **Perfect for learning neural networks from scratch!** 🎓
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
