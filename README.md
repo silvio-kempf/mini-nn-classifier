@@ -10,8 +10,25 @@ This repository contains a fully functional neural network that can classify han
 - **Simple CLI interface** for easy digit classification
 - **Test images included** for immediate experimentation
 
+### What's Included
 
-## 🚀 Quick Start
+- **10 test images** in `test_images/` folder (digits 0-9)
+  - **Guaranteed**: These images were NOT used during training
+  - **Source**: Real MNIST test samples from the same test set used for evaluation
+- **Pre-trained model** with 98%+ accuracy
+
+---
+
+## 📊 Model Performance
+
+- **Training Accuracy**: ~100%
+- **Test Accuracy**: ~98%
+- **Architecture**: 64 → 32 → 10 neurons
+- **Dataset**: MNIST handwritten digits (8x8 pixels)
+
+---
+
+## Quick Start
 
 ### 1. Install Dependencies
 ```bash
@@ -30,18 +47,10 @@ python classifier.py test_images/digit_7.png
 # Test your own handwritten digit
 python classifier.py my_digit.png
 ```
----
-
-## 📁 What's Included
-
-- **10 test images** in `test_images/` folder (digits 0-9)
-  - **Guaranteed**: These images were NOT used during training
-  - **Source**: Real MNIST test samples from the same test set used for evaluation
-- **Pre-trained model** with 98%+ accuracy
 
 ---
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ```bash
 # Test a specific digit
@@ -56,15 +65,6 @@ python classifier.py my_image.png --debug
 # No visualization
 python classifier.py my_image.png --no-display
 ```
-
----
-
-## 📊 Model Performance
-
-- **Training Accuracy**: ~100%
-- **Test Accuracy**: ~98%
-- **Architecture**: 64 → 32 → 10 neurons
-- **Dataset**: MNIST handwritten digits (8x8 pixels)
 
 ---
 
@@ -84,7 +84,7 @@ python classifier.py my_image.png --no-display
 
 ---
 
-## 🛠️ For Developers & Transparency
+## For Developers & Transparency
 
 ```bash
 # Retrain the model (shows how it was created)
@@ -96,7 +96,7 @@ python train_model.py --epochs 50 --hidden 64 --lr 0.05
 
 ---
 
-## 📝 Image Requirements
+## Image Requirements
 
 - **Formats**: PNG, JPG, JPEG, BMP, TIFF
 - **Size**: Any (automatically resized to 8x8)
