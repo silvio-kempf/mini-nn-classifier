@@ -1,6 +1,25 @@
 # Mini Neural Network - Digit Classifier
 
-A simple neural network for handwritten digit classification built from scratch using only NumPy.
+A complete neural network implementation for handwritten digit classification, built from scratch using only NumPy. This project demonstrates the fundamentals of machine learning without relying on high-level frameworks like TensorFlow or PyTorch.
+
+## 📖 About This Project
+
+This repository contains a fully functional neural network that can classify handwritten digits (0-9) with 98%+ accuracy. It's designed as both a practical tool and an educational resource to understand how neural networks work under the hood.
+
+### Key Features:
+- **From-scratch implementation** using only NumPy
+- **Pre-trained model** ready to use immediately
+- **Complete training pipeline** with full transparency
+- **Simple CLI interface** for easy digit classification
+- **Educational focus** with clean, well-documented code
+- **Test images included** for immediate experimentation
+
+### Perfect For:
+- Learning neural network fundamentals
+- Understanding backpropagation and gradient descent
+- Seeing how activation functions work in practice
+- Educational projects and tutorials
+- Quick digit classification without complex setup
 
 ## 🚀 Quick Start
 
